@@ -7,7 +7,7 @@ namespace Tyuiu.MorozovSM.Sprint3.Task0.V22.Lib
         public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
             double MulSeries = 1;
-            for (int i = startValue; i < stopValue; i++)
+            for (int i = startValue; i < stopValue+1; i++)
             {
                 MulSeries *= ((Math.Pow(value, i) + 4) * Math.Cos(value));
             }
