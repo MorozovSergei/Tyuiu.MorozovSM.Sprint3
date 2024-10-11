@@ -14,7 +14,6 @@ namespace Tyuiu.MorozovSM.Sprint3.Task2.V6.Test
             int stopValue = 10;
             var res = ds.GetMultiplySeries(value, startValue, stopValue);
             Assert.AreEqual(0, res);
-
         }
     }
 }
