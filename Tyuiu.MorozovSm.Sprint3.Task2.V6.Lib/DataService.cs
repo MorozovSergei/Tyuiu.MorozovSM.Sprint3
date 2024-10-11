@@ -12,6 +12,7 @@ namespace Tyuiu.MorozovSM.Sprint3.Task2.V6.Lib
                 MulSeries *= ((Math.Pow(value, i) + 1) * Math.Cos(4));
             }
             return double.Round(MulSeries, 3);
+
         }
     }
 }
