@@ -1,4 +1,4 @@
-﻿using Tyuiu.MorozovSm.Sprint3.Task2.V6.Lib;
+﻿using Tyuiu.MorozovSM.Sprint3.Task2.V6.Lib;
 
 namespace Tyuiu.MorozovSM.Sprint3.Task2.V6
 {
