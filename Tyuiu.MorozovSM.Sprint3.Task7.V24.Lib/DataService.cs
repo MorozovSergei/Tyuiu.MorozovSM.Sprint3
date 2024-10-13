@@ -12,7 +12,7 @@ namespace Tyuiu.MorozovSM.Sprint3.Task7.V24.Lib
             for (int x = startValue; x <= stopValue; x++)
             {
                 if (x == 0) { valueArray[count++] = 0; continue; }
-                f = (Math.Sin(x)/x+1.2) - Math.Sin(x) * 2 - 2 * x;
+                f = (Math.Sin(x)/(x+1.2)) - Math.Sin(x) * 2 - 2 * x;
                 valueArray[count++] = Math.Round(f,2);
             }
             return valueArray;
